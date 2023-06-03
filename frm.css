@@ -1,0 +1,9 @@
+h1{
+    color: crimson
+    background-color: rgb(239, 201, 201);
+    background-blend-mode: multiply;
+    text-align: center;
+}
+form{
+    text-align: center;
+}

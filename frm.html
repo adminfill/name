@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Friendship with name</title>
+        <link rel="stylesheet" href="frm.css">
+    </head>
+<body>
+    <h1>Your Name Please!</h1>
+    <form name = "Friendship" onsubmit="return(msg());">
+        <input name = "name" id="entered_name" placeholder="Name" type="text"><br>
+        <button type="submit">Submit</button> 
+    </form>
+
+    <script>
+        
+        function msg(){
+            var N = document.getElementById("entered_name").value;
+            if(document.Friendship.name.value==""){
+                alert("Please enter your name");
+                document.Friendship.name.focus()
+                return false
+            }
+             else{
+                alert("FUCK YOU" + " " + N + " !!!!!!")
+                return true
+            }
+        }
+
+    </script>
+</body>
+</html>
